@@ -38,6 +38,8 @@ func main() {
 	// invoke greetWithName function
 	fmt.Println(greetWithName("Toni"))
 
+	fmt.Println(greetWithNameAndAge("testname", 29))
+
 	// invoke divide function
 	fmt.Println(divide(10, 2))
 
