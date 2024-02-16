@@ -1,7 +1,11 @@
 // flow-control/loop-infinite/main.go
 package main
 
+import "fmt"
+
 func main() {
-	for {
+	n := 1 
+	for n > 0{
+		fmt.Println(n)
 	}
 }
